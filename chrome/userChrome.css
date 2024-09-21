@@ -1,0 +1,57 @@
+#tabbrowser-tabs { visibility: collapse !important; }
+
+#tracking-protection-icon-container,
+#page-action-buttons,
+#firefox-view-button,
+#alltabs-button,
+#identity-box,
+.titlebar-spacer {
+  display: none !important;
+}
+
+toolbar toolbarspring{
+  -moz-box-flex: 40 !important;
+  min-width: 0px !important;
+  max-width: 0px !important;
+}
+
+#TabsToolbar {
+  margin-left: 25vw !important;
+}
+
+#nav-bar {
+  background: transparent !important;
+  margin-right: 135px !important;
+  margin-top: -30px !important;
+  margin-bottom: -2px !important;
+}
+
+#sidebar-header {
+  display: none;
+}
+
+.sidebar-splitter {
+  display: none !important
+}
+
+#urlbar-container {
+  width: auto !important;
+}
+
+#urlbar[breakout-extend] {
+  width: 75vw !important;
+}
+
+#navigator-toolbox {
+  border: 0px !important;
+}
+
+*|*:root[sizemode="normal"] #navigator-toolbox {
+  max-height: 100vh;
+  overflow: visible;
+  transition: none;
+}
+
+*|*:root[sizemode="maximized"] #navigator-toolbox {
+  overflow: visible;
+}
