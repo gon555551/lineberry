@@ -55,3 +55,7 @@ toolbar toolbarspring{
 *|*:root[sizemode="maximized"] #navigator-toolbox {
   overflow: visible;
 }
+
+#private-browsing-indicator-with-label {
+  display: none !important;
+}

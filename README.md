@@ -7,7 +7,9 @@ Some CSS is recommended for better colour coordination:
 #root.root {--frame-bg: #1c1b22;}
 #root.root {--ctx-menu-bg: #1c1b22;}
 ```
-Add this to the Sideberry Styles Editor section: `Sideberry Settings` > `Styles Editor`
+Add this to the Sideberry Styles Editor section: `Sideberry Settings` > `Styles Editor`.
+
+Also go to `about:addons` > `Sideberry` > `Run in Private Windows` and select `Allow`.
 
 The `userChome.css` file is based on [One-line Firefox](https://github.com/khuedoan/one-line-firefox) with heavy modifications and improvements.  
 The `user.js` file is based on [Betterfox](https://github.com/yokoffing/Betterfox) with SmoothFox Sharpen Scrolling, GPU accelerated canvas, and a reduced motion user preference.
