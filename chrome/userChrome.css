@@ -6,16 +6,17 @@
 #identity-box,
 #new-tab-button,
 #back-button,
+#private-browsing-indicator-with-label,
 #forward-button,
 .titlebar-spacer {
   display: none !important;
 }
 
-toolbar toolbarspring{
+/* toolbar toolbarspring{
   -moz-box-flex: 40 !important;
   min-width: 0px !important;
   max-width: 0px !important;
-}
+} */
 
 #TabsToolbar {
   margin-left: 25vw !important;
@@ -58,6 +59,60 @@ toolbar toolbarspring{
   overflow: visible;
 }
 
-#private-browsing-indicator-with-label {
-  display: none !important;
+/* Disappearing Toolbar */
+
+/* #titlebar {
+  position: relative;
+  top: -100vh !important;
+  transition: ease all 0.5s !important;
+  transition-delay: 0.4s !important;
 }
+
+#navigator-toolbox:hover #titlebar {
+  position: relative !important;
+  top: 0px !important;
+  transition-delay: -5s !important;
+}
+
+#navigator-toolbox:focus-within #titlebar {
+  position: relative !important;
+  transition: none !important;
+  top: 0px !important;
+}
+
+#navigator-toolbox {
+  max-height: 0.01vh;
+  transition: ease all 0.5s !important;
+  overflow: hidden;
+  transition-delay: 0s !important;
+}
+
+#navigator-toolbox:hover {
+  max-height: 100vh !important;
+}
+
+#navigator-toolbox:focus-within {
+  max-height: 100vh !important;
+}
+
+#nav-bar {
+  padding-top: 8px !important;
+  top: -4px !important;
+}
+
+#urlbar-container {
+  top: 0px !important;
+}
+
+#urlbar-input-container {
+  top: 0px !important;
+}
+
+#urlbar[breakout-extend] {
+  padding-top: 5px !important;
+  top: -5px !important;
+}
+
+#sidebar-box {
+  z-index: 9;
+} */

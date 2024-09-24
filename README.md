@@ -11,8 +11,9 @@ Add this to the Sideberry Styles Editor section: `Sideberry Settings` > `Styles 
 
 Also go to `about:addons` > `Sideberry` > `Run in Private Windows` and select `Allow`.
 
-The `userChome.css` file is based on [One-line Firefox](https://github.com/khuedoan/one-line-firefox) with heavy modifications and improvements.  
-The `user.js` file is based on [Betterfox](https://github.com/yokoffing/Betterfox) with SmoothFox Sharpen Scrolling, GPU accelerated canvas, and a reduced motion user preference.
+The `userChome.css` file is based on [One-line Firefox](https://github.com/khuedoan/one-line-firefox) with heavy modifications and improvements and a disappearing bar option (disabled by default + has a very minor issue when in fullscreen).  
+The `user.js` file is based on [Betterfox](https://github.com/yokoffing/Betterfox) with SmoothFox Sharpen Scrolling, GPU accelerated canvas, and a reduced motion user preference.  
+The `userContent.css` file just removes some stuff from the new tab page.
 
 ![lineberry](https://i.postimg.cc/5ypNxWTP/image.png)
 
