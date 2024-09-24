@@ -1,5 +1,3 @@
-// This is a modified Betterfox file
-
 //
 /* You may copy+paste this file and use it as it is.
  *

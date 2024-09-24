@@ -1,10 +1,12 @@
 #tabbrowser-tabs { visibility: collapse !important; }
 
 #tracking-protection-icon-container,
-#page-action-buttons,
 #firefox-view-button,
 #alltabs-button,
 #identity-box,
+#new-tab-button,
+#back-button,
+#forward-button,
 .titlebar-spacer {
   display: none !important;
 }

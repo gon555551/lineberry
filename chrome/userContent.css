@@ -1,0 +1,4 @@
+@-moz-document url(about:newtab), url(about:home) {
+    .search-inner-wrapper { display: none !important; }
+    .personalizeButtonWrapper { display: none !important; }
+}
