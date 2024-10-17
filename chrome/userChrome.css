@@ -12,11 +12,10 @@
   display: none !important;
 }
 
-/* toolbar toolbarspring{
-  -moz-box-flex: 40 !important;
+toolbarspring{
   min-width: 0px !important;
-  max-width: 0px !important;
-} */
+  max-width: 20px !important;
+}
 
 #TabsToolbar {
   margin-left: 25vw !important;
@@ -31,6 +30,10 @@
 
 #sidebar-header {
   display: none;
+}
+
+#sidebar-box {
+  width: 50px !important;
 }
 
 .sidebar-splitter {
