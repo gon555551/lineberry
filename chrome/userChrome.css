@@ -3,7 +3,6 @@
 #tracking-protection-icon-container,
 #firefox-view-button,
 #alltabs-button,
-#identity-box,
 #new-tab-button,
 #back-button,
 #private-browsing-indicator-with-label,
@@ -11,6 +10,8 @@
 .titlebar-spacer {
   display: none !important;
 }
+
+#urlbar-background, #searchbar {--toolbar-field-background-color: #1c1b22 !important;}
 
 toolbarspring{
   min-width: 0px !important;

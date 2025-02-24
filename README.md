@@ -15,8 +15,6 @@ The `userChome.css` file is based on [One-line Firefox](https://github.com/khued
 The `user.js` file is based on [Betterfox](https://github.com/yokoffing/Betterfox) with SmoothFox Sharpen Scrolling, GPU accelerated canvas, and a reduced motion user preference.  
 The `userContent.css` file just removes some stuff from the new tab page.
 
-![lineberry](https://i.postimg.cc/5ypNxWTP/image.png)
-
 Enjoy.
 
 ---
