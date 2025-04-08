@@ -11,112 +11,50 @@
   display: none !important;
 }
 
-#urlbar-background, #searchbar {--toolbar-field-background-color: #1c1b22 !important;}
-
-toolbarspring{
-  min-width: 0px !important;
-  max-width: 20px !important;
-}
-
-#TabsToolbar {
-  margin-left: 25vw !important;
-}
-
 #nav-bar {
   background: transparent !important;
-  margin-right: 135px !important;
-  margin-top: -30px !important;
-  margin-bottom: -2px !important;
 }
 
-#sidebar-header {
-  display: none;
+#sidebar-header, #sidebar-main, .sidebar-splitter {
+  display: none !important;
 }
 
 #sidebar-box {
-  width: 50px !important;
+  width: 5vw !important;
+  padding: 0 !important;
 }
 
-.sidebar-splitter {
-  display: none !important
-}
-
-#urlbar-container {
-  width: auto !important;
-}
-
-#urlbar[breakout-extend] {
-  width: 75vw !important;
+#sidebar {
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  border: 0 !important;
 }
 
 #navigator-toolbox {
-  border: 0px !important;
+  border: 0 !important;
 }
 
-*|*:root[sizemode="normal"] #navigator-toolbox {
-  max-height: 100vh;
-  overflow: visible;
-  transition: none;
+#tabbrowser-tabbox, #browser {
+  outline: none !important;
+  background-color: #2B2B2B !important;
+  box-shadow: none !important;
 }
 
-*|*:root[sizemode="maximized"] #navigator-toolbox {
-  overflow: visible;
-}
-
-/* Disappearing Toolbar */
-
-/* #titlebar {
-  position: relative;
-  top: -100vh !important;
-  transition: ease all 0.5s !important;
-  transition-delay: 0.4s !important;
-}
-
-#navigator-toolbox:hover #titlebar {
-  position: relative !important;
-  top: 0px !important;
-  transition-delay: -5s !important;
-}
-
-#navigator-toolbox:focus-within #titlebar {
-  position: relative !important;
-  transition: none !important;
-  top: 0px !important;
-}
-
-#navigator-toolbox {
-  max-height: 0.01vh;
-  transition: ease all 0.5s !important;
-  overflow: hidden;
-  transition-delay: 0s !important;
-}
-
-#navigator-toolbox:hover {
-  max-height: 100vh !important;
-}
-
-#navigator-toolbox:focus-within {
-  max-height: 100vh !important;
-}
-
-#nav-bar {
-  padding-top: 8px !important;
-  top: -4px !important;
-}
-
-#urlbar-container {
-  top: 0px !important;
-}
-
-#urlbar-input-container {
-  top: 0px !important;
-}
-
-#urlbar[breakout-extend] {
-  padding-top: 5px !important;
-  top: -5px !important;
-}
-
-#sidebar-box {
-  z-index: 9;
+/* Floating content */
+/* #tabbrowser-tabpanels {
+  & browser[type="content"] {
+    border-radius: 1% !important;
+    box-shadow: var(--content-area-shadow) !important;
+  };
+  
+  margin-bottom: 5px !important;
+  margin-right: 5px !important;
+  margin-left: 5px !important;
 } */
+
+/* Colour match */
+.sidebar-panel {
+  background-color: #2B2B2B !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+}
